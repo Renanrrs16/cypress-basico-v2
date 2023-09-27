@@ -125,7 +125,7 @@ input[type="radio"] {
 }
 
 .error {
-    display: none;
+    display: center;
     background-color: #fbdd74;
     color: #181818;
     padding: 8px 10px;
