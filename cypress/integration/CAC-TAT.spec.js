@@ -148,6 +148,6 @@ describe('Central de Atendimento ao Cliente TAT', function () {
   cy.get('#privacy a')
     .invoke('removeAttr','target')// remove o atributo taget para que o link abra na mesma aba
     .click()
-  cy.contains('Talking About Testing').should('be.visible')
+  cy.contains('Talking About Testingggggg').should('be.visible')
  })
 })
